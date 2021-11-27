@@ -1,7 +1,7 @@
 {
   "name": "smart-vision-ai",
   "version": "1.0.0",
-  "description": "the smart brain project backend",
+  "description": "Smart-vision-AI is an Artificial intelligence based project that uses machine / deep learning API to visualize and detect meaningful data . this is a computer vision project",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",

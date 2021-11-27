@@ -1,9 +1,13 @@
 exports.dbConn = {
   client: "pg",
   connection: {
-    host: "127.0.0.1",
+  connectionString: process.env.DATABASE_URL,
+  ssl: {
+    rejectUnauthorized: false
+  }
+/*     host: "127.0.0.1",
     user: "postgres",
     password: "postgres",
-    database: "smartbrain",
+    database: "smartbrain", */
   }
 }
